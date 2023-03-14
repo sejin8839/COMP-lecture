@@ -44,33 +44,44 @@ l=len(s)
     #print("Underweight")
 
 
-score = float(input("Enter your score"))
-if score < 0 or score > 1:
-    print('Wrong Input')
-elif score >= 0.9:
-    print('Your Grade is "A"')
-elif score >= 0.8:
-    print('Your Grade is "B"')
-elif score >= 0.7:
-    print('Your Grade is "C"')
-elif score >= 0.6:
-    print('Your Grade is "D"')
+#score = float(input("Enter your score"))
+#if score < 0 or score > 1:
+    #print('Wrong Input')
+#elif score >= 0.9:
+    #print('Your Grade is "A"')
+#elif score >= 0.8:
+    #print('Your Grade is "B"')
+#elif score >= 0.7:
+    #print('Your Grade is "C"')
+#elif score >= 0.6:
+    #print('Your Grade is "D"')
+#else:
+    #print('Your Grade is "E"')
+
+
+
+#year = int(input('Enter a year'))
+#if year % 4 == 0:
+    #if year % 100 == 0:
+        #if year % 400 == 0:
+            #print(f'{year} is a Leap Year')
+        #else:
+            #print(f'{year} is not a Leap Year')
+    #else:
+        #print(f'{year} is a Leap Year')
+#else:
+    #print(f'{year} is not a Leap Year')
+
+
+total = 27
+items = 0
+if items != 0:
+    print('Average = {0}'.format(total/items))
 else:
-    print('Your Grade is "E"')
+    print('Average = N/A')
 
-
-
-year = int(input('Enter a year'))
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print(f'{year} is a Leap Year')
-        else:
-            print(f'{year} is not a Leap Year')
-    else:
-        print(f'{year} is a Leap Year')
-else:
-    print(f'{year} is not a Leap Year')
-
+total = 27
+items = 35
+print('Average = {0}'.format(total/items if items != 0 else 'N/A'))
 
 
