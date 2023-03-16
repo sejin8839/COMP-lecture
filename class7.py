@@ -21,5 +21,22 @@ else:
     print(f'f(x) = {1/(x**2)}')
 
 
+#Boolean
+s= [-100, 200, 300]
+print(bool(s))
+
+
+#for Loop
+
+
+
+
+
+
+
+
+
+
+
 
 
