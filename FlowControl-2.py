@@ -86,5 +86,31 @@ print(f"Sum of Even numbers are {sum_even} and Odd numbers are {sum_odd}")
 
 
 #While#
+a = 10
+while a < 40:
+    print(a)
+    a=a+1
+    a=a+3
 
+number = int(input("Enter a number up to which you want to find the average: "))
+i = 0
+summ = 0
+count = 0
+while i < number:
+    i = i+1
+    summ = summ + i
+    count = count + 1
+average = summ/count + 1
+print(f"The average of {number} natural number is {average}")
+
+
+#write Python Program to find the sum of digits in a Number
+A = int(input('Enter a number:'))
+result = 0
+remainder = 0
+while number != 0:
+    remainder = number % 10
+    result = result + remainder
+    A = int(A/10)
+print(f"The sum of all digits is {result}")
 
