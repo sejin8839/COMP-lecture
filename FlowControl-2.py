@@ -31,6 +31,11 @@ print(bool(s))
 # for VAR in ITERABLE:
 #  BLOCK
 
+# ITERABLE MEAN = SEQUENCE
+
+#range()function creates a sequence or a series of numbers(integers)
+#Syntax: range(start, stop, step)
+
 x = range(6)
 print(x)
 
@@ -53,6 +58,23 @@ for i in range(10):
 for i in range(10):
     print(f"{i**2}", end=" ")
 
+#헤헤
+S =  "Hello"
+for i in s:
+    print(i, end="")
+
+
+
+#EXAMPLE 1#
+number= int(input('Enter the number: '))
+sum_even = 0
+sum_odd = 0
+for i in range(number):
+    if i % 2 == 0:
+        sum_even = sum_even + i
+    else:
+        sum_odd = sum_odd + i
+print(f"Sum of Even numbers are {sum_even} and Odd numbers are {sum_odd}")
 
 
 
