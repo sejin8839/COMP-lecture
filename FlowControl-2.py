@@ -84,7 +84,6 @@ for i in range(number):
 print(f"Sum of Even numbers are {sum_even} and Odd numbers are {sum_odd}")
 
 
-
 #While#
 a = 10
 while a < 40:
@@ -92,6 +91,7 @@ while a < 40:
     a=a+1
     a=a+3
 
+#
 number = int(input("Enter a number up to which you want to find the average: "))
 i = 0
 summ = 0
@@ -113,4 +113,24 @@ while number != 0:
     result = result + remainder
     A = int(A/10)
 print(f"The sum of all digits is {result}")
+
+
+
+#program to Demonstrate break Statement
+n = 0
+while True:
+    print(f"The latest value of n is {n}")
+    n = n + 1
+    if n > 5:
+        print(f"The value of n is greater than 5")
+        break
+
+#program to Demonstrate continue Statement
+var = 10
+while var > 0:
+    var = var =1
+    if var == 5:
+        print(f'breaking at:{var}')
+        continue
+    print(f'Current variable value:{var}')
 
