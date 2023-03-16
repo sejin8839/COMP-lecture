@@ -15,8 +15,10 @@ print(S[::-1])
 
 # f(x) = 1/x^2
 x= int(input('Enter x: '))
-if x>0:
-    print(1/(x^2))
+if x==0:
+    print('error- div by 0')
+else:
+    print(f'f(x) = {1/(x**2)}')
 
 
 
