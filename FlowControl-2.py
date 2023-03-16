@@ -66,6 +66,13 @@ for i in s:
 
 
 #EXAMPLE 1#
+# What does if I 2 == 0 mean in Python?
+# if not i%2==0 can also be written as, if (i%2!=0).
+# i%2 gives the remainder obtained when i is divided by 2.
+# So the expression stands true if the remainder of i when divided by 2 is not 0.
+# Therefore, the expression stands true for all odd numbers because any odd number when divides with 2,
+# leaves a remainder of 1#
+
 number= int(input('Enter the number: '))
 sum_even = 0
 sum_odd = 0
@@ -78,6 +85,6 @@ print(f"Sum of Even numbers are {sum_even} and Odd numbers are {sum_odd}")
 
 
 
-
+#While#
 
 
