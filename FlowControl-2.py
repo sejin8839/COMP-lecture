@@ -88,8 +88,8 @@ print(f"Sum of Even numbers are {sum_even} and Odd numbers are {sum_odd}")
 a = 10
 while a < 40:
     print(a)
-    a=a+1
-    a=a+3
+    # a=a+1
+    a=a+10
 
 #
 number = int(input("Enter a number up to which you want to find the average: "))
