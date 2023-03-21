@@ -30,10 +30,30 @@ s = 'Hello World'
 for l in s:
     print(l)
 
-
 s = 'Hello World'
 i = 1
 while i<len(S):
     print(s[i])
     i=i+1
-    
+
+# 인덱싱은 항상 0(zero)부터 시작
+
+#while i<len(S):
+    #print(s[i],end='')
+    #if(s[i]==' '):
+        #continue
+
+var = 10
+while var > 0:
+    var = var -1
+    if var == 3:
+        print(f'breaking at :{var}')
+        continue
+
+
+
+
+
+
+
+
