@@ -27,8 +27,16 @@ else:
     pay = hours * rate
 print(f"Pay=${pay}")
 
+# All the same
 
+import math
+print(f'pi={math.pi}')
+print(f' the square of 7 is {math.pow(7, 2)}')
 
+import math as m
+print(f'pi={m.pi}')
+print(f' the square of 7 is {m.pow(7, 2)}')
 
-
-
+from math import pi,pow
+print(f'pi={pi}')
+print(f' the square of 7 is {pow(7, 2)}')
