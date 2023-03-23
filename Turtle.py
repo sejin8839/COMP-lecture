@@ -77,12 +77,12 @@
 
 
 #<Moving the Turtle to a Specific Location>
-import turtle
-turtle.goto(0,100)
-turtle.dot()
-turtle.goto(-100,0)
-turtle.dot()
-turtle.goto(0,0)
+#import turtle
+#turtle.goto(0,100)
+#turtle.dot()
+#turtle.goto(-100,0)
+#turtle.dot()
+#turtle.goto(0,0)
 
 
 #<Speed>
@@ -90,6 +90,64 @@ turtle.goto(0,0)
 
 
 #<hiding and Displaying>
+
+
+
+
+#Displaying test
+#import turtle
+#turtle.write('Hello World')
+#turtle.style('courier',20)
+
+
+#Filling Shapes
+#import turtle
+#turtle.hideturtle()
+#turtle.fillcolor('red')
+#turtle.begin_fill()
+#turtle.circle(100)
+#turtle.end_fill()
+#turtle.exitonclick()
+
+
+#import turtle
+#turtle.pensize(5)
+#turtle.pencolor('yellow')
+#turtle.Turtle()
+#for i in range(5):
+    #turtle.forward(50)
+    #turtle.right(144)
+#turtle.exitonclick()
+
+
+# Turtle shape
+from turtle import *
+speed(10)
+color('red', 'yellow')
+begin_fill()
+while True:
+    forward(200)
+    left(170)
+    if abs(pos()) < 1:
+        break
+end_fill()
+done()
+
+
+# import turtle library
+import turtle
+colors = [
+"red","purple","blue","green","orange","yellow"]
+my_pen = turtle.Pen()
+turtle.bgcolor("black")
+for x in range(360):
+    my_pen.pencolor(colors[x % 6])
+    my_pen.width(x/100 + 1)
+    my_pen.forward(x)
+    my_pen.left(59)
+
+
+
 
 
 
