@@ -16,13 +16,71 @@
 #width() > set line width
 
 
+#Making a rectangle
+#import turtle
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
+#turtle.left(90)
+#turtle.forward(100)
+#turtle.exitonclick()
+
+
+
+#pendown/penup
+#import turtle
+#turtle.forward(50)
+#turtle.penup()
+#turtle.forward(25)
+#turtle.pendown()
+#turtle.forward(50)
+#turtle.penup()
+#turtle.forward(25)
+#turtle.pendown()
+#turtle.forward(50)
+#turtle.exitonclick()
+
+
+#Drawing a circles
+#import turtle
+#turtle.shape('turtle')
+#turtle.color('green')
+#turtle.circle(100)
+
+
+#Drawing a dot
+#import turtle
+#turtle.dot()
+#turtle.forward(50)
+#turtle.dot()
+#turtle.forward(50)
+#turtle.dot()
+#turtle.forward(50)
+#turtle.exitonclick()
+
+
+#Chaing the Pen Size and Drawing Color
+#import turtle
+#turtle.pensize(5)
+#turtle.pencolor('red')
+#turtle.circle(100)
+
+
+# Resetting the turtle
+#import turtle
+#turtle.setup(480, 240)
+
+
+# Moving the Turtle to a Specific Location
 import turtle
-w = turtle.Screen()
-pen = turtle.Pen()
-turtle.forward(100)
-pen.left(90)
-pen.forward(100)
-turtle.exitonclick()
+turtle.goto(0,100)
+turtle.goto(-100,0)
+turtle.goto(0,0)
+
+
+
 
 
 
