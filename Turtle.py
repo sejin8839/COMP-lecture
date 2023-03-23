@@ -18,18 +18,18 @@
 
 import turtle
 w = turtle.Screen()
-turtle.showturtle()
-turtle.shape('turtle')
-turtle.shapesize(3)
-turtle.color('green')
-
-pen = turtle.Turtle()
+pen = turtle.Pen()
 turtle.forward(100)
 pen.left(90)
-pen.forward(75)
-pen.circle(200)
+pen.forward(100)
+turtle.exitonclick()
 
 
+
+#turtle.showturtle()
+#turtle.shape('turtle')
+#turtle.shapesize(3)
+#turtle.color('green')
 
 
 
