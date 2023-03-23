@@ -145,8 +145,10 @@ for x in range(360):
     my_pen.width(x/100 + 1)
     my_pen.forward(x)
     my_pen.left(59)
+done()
 
-
+# turtle demo examples
+# Terminal 부분에 <python -m turtledemo> 입력하기
 
 
 
