@@ -69,12 +69,39 @@
 
 
 
-def rectangle(w,h):
-    area=w,h
-    diag_len = w*w + h*h
-    return area,diag_len
-a,d=rectangle(3,4)
-print(f'area={a}\ndiagonal length={d}')
+# def rectangle(w,h):
+#     area=w,h
+#     diag_len = w*w + h*h
+#     return area,diag_len
+# a,d=rectangle(3,4)
+# print(f'area={a}\ndiagonal length={d}')
+
+
+
+# import math
+# print(math.sqrt(25))
+
+
+a = 1
+while a < 101:
+    print(a)
+    a=a+1
+
+
+
+s=0
+for x in range(0, 100):
+    s=s+1
+    print(s)
+
+
+def addEven()
+    s=0
+    for i in range (0,101,2)
+        s=s+i
+    return s
+print(addEven())
+
 
 
 
