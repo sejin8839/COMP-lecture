@@ -40,14 +40,41 @@
 
 # def add(a,b,c):
 #     print(f'sum = {a,b,c}')
-#     
+#
 # add(10,10,10.5)
 # add(11,121,10)
 
 
+# x=float(input("Enter No. :"))
+# y=float(input("Enter No. :"))
+# z=float(input("Enter No. :"))
+#
+# def add(a,b,c):
+#     print(a+b+c)
+#
+# add(x,y,z)
 
 
 
+
+# def add(a,b,c):
+#     return a+b+c
+#
+# x=add(74,75,78)
+# y=add(100,1000,78)
+# print(f' sum ={x}')
+# print(f' sum ={y}')
+
+
+
+
+
+def rectangle(w,h):
+    area=w,h
+    diag_len = w*w + h*h
+    return area,diag_len
+a,d=rectangle(3,4)
+print(f'area={a}\ndiagonal length={d}')
 
 
 
