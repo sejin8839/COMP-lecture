@@ -1,16 +1,14 @@
-from Mymodule import *
 
-Sum=add(2, 6, 7)
-Product=multiply(2, 6, 7)
-print(f'total sum={Sum}')
-print{f'total product={Product}'}
+sum=0
+num=10
+while num <= 100:
+    sum += num+1
+    num += 1
+print{f"Sum={sum}"}
 
-def add(*nums):
-    sum=0
-    for j in nums:
-        sum=sum+sum
-    return sum
 
-def multiply(*nums)
-        
+sum=0
+for num in range(10,101):
+    sum +=num
+print{f"Sum={sum}"}
 
