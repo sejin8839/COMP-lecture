@@ -9,3 +9,30 @@ print(y[1])
 department = (“math", “Biology", “Computer", “chemistry")
 department[0] = “Medicine“
 TypeError: 'tuple' object does not support item assignment
+
+
+
+#
+# using zip function
+# 1. >>> x = [1, 2, 3]
+# 2. >>> y = [4, 5, 6]
+# 3. >>> zipped = zip(x, y)
+# 4. >>> list(zipped)
+# [(1, 4), (2, 5), (3, 6)]
+print(zipped)
+
+#
+# when you are using zip, same size
+
+
+
+
+>>> fish = {"g": "goldfish", "s":"shark", "n": "needlefish"}
+>>> fish
+{'g': 'goldfish', 's': 'shark', 'n': 'needlefish}
+>>> type(fish)
+<class 'dict’>
+>>> empty_dictionary = {} # creates empty dictionary
+
+
+
