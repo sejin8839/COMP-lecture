@@ -89,3 +89,41 @@ values={"val_1":3,"val_2":10,"val_3":20}
 sum_values(**values)
 
 
+
+
+
+
+##Ordering Arguments of *args and **kwargs
+def test(a, b, *args, c = 5, d = 9, **kwargs):
+    print (a, b)
+    print (type(args), args)
+    print (c, d)
+    print (type(kwargs), kwargs)
+test(1, 2, 3, 4, 5, e=6, f = 7)
+#test(1, 2
+
+
+##List Comprehensions
+li = [3, 6, 2, 7]
+
+for i in li:
+    print(i*2, end=", ")
+
+for i in li:
+    if(i%2 == 0):
+        print(i*2, end=", ")
+
+print([elem*2 for elem in li])
+print([elem*2 for elem in li if elem%2==0])
+
+
+
+vec=[2,4,6]
+print([3*x for x in vec])
+print([3*x for x in vec if x>3])
+print([3*x for x in vec if x<2])
+
+print([{x: x**2} for x in vec])
+print([[x,x**2] for x in vec])
+
+# gonna be error [x, x**2 for x in vec]
