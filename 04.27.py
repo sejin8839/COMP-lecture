@@ -127,3 +127,23 @@ print([{x: x**2} for x in vec])
 print([[x,x**2] for x in vec])
 
 # gonna be error [x, x**2 for x in vec]
+
+
+while True:
+    try:
+        number = int(input("Please enter a number: "))
+        print(f"The number you have entered is {number}")
+        break
+    except ValueError:
+        print("Oops! Than was no valid number. Try again...")
+
+x = input("Enter value for x: ")
+y = input("Enter value for y: ")
+try:
+result = int(x) / int(y)
+except ZeroDivisionError:
+print("Division by zero!")
+else:
+print(f"Result is {result}")
+finally:
+print("Executing finally clause")
