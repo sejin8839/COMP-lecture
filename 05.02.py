@@ -62,7 +62,19 @@ while True:
 #
 
 
-
+def longestSubSeq(myList):
+    lastItem = myList[0]
+    current = 0
+    best = 0
+    for item in myList:
+        if(item == lastItem):
+            best = best + 1
+            if best < current:
+                best = current
+        else:
+            lastItem = item
+            current = 1
+    return best
 
 def main():
     print(longestSubSeq)([1])
