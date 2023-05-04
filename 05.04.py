@@ -29,3 +29,26 @@ print(e2.__dict__)
 
 
 
+
+class Student:
+    def __init__(self):
+        print('This is my first OOP in python')
+Student()
+
+class Student:
+    def __init__(self,fname,lname,major):
+        self.fname = fname
+        self.lname = lname
+        self.major = major
+        self.email = fname + '.' + lname + '@utah.edu'
+    def fullname(self):
+        return '{} {} '.format(self.fname,self.lanme)
+stud1=Student('Helena','Nathan','Bioinformatics')
+stud2=Student('Daniel','Wee','computer Science')
+print(stud1.email)
+print(stud2.fullname())
+
+
+
+
+
